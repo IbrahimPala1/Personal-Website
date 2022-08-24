@@ -1,7 +1,12 @@
 import './layout.scss'
+import Topbar from '../Topbar/topbar'
 
 const Layout = () => {
-    return <>Hello</>
+    return (
+    <>
+     <Topbar />
+    </>
+    )
 }
 export default Layout 
 
