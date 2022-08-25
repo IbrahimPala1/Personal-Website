@@ -1,6 +1,6 @@
 .nav-bar {
-    background: #0e0f10;
-    width: 90px;
+    background: #eff0f3;
+    width: 60px;
     height: 100%;
     position: absolute;
     top: 0;
@@ -42,7 +42,7 @@
       }
 
       &:hover {
-        color: #ffd700;
+        color: #806f03;
 
         svg {
           opacity: 0;
@@ -85,5 +85,34 @@
         content: 'CONTACT';
       }
     }
+    a.portfolio-link {
+        &:after {
+          content: 'PORTFOLIO';
+        }
+      }
+  }
+  ul {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    display: block;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+
+    li {
+        a {
+            padding: 7px, 0;
+            display: block;
+            font-size: 15px;
+            line-height: 16px;
+
+            &:hover svg {
+                color: #ffd700;
+            }
+        }
+    }
+
   }
 }
