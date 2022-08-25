@@ -90,6 +90,12 @@
           content: 'PORTFOLIO';
         }
       }
+      a.active {
+        svg {
+            color: #ffd700
+        }
+
+      }
   }
   ul {
     position: absolute;
