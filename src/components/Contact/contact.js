@@ -1,10 +1,10 @@
 import './contact.scss'
 import AnimatedLetters from '../AnimatedLetters/letters'
-import Loader from 'react-loaders'
-import { useEffect, useState } from 'react'
+// import Loader from 'react-loaders'
+// import { useEffect, useState } from 'react'
 
 const Contact = () => {
-    const [letterClass, setLetterClass] = useState('text-animate')
+    // const [letterClass, setLetterClass] = useState('text-animate')
     
 
     //  useEffect(() => {

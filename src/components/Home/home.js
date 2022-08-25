@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
 import './home.scss';
+import '../AnimatedLetters/letters.scss';
 import FirstLetter from '../../assets/images/letter_i2.png';
-import AnimatedLetters from '../AnimatedLetters/letters'
+import AnimatedLetters from '../AnimatedLetters/letters';
 import { useState, useEffect }  from 'react'
 
 
