@@ -1,5 +1,6 @@
 import './contact.scss'
 import AnimatedLetters from '../AnimatedLetters/letters'
+import Logo from './Logo/logo'
 // import Loader from 'react-loaders'
 // import { useEffect, useState } from 'react'
 
@@ -22,7 +23,7 @@ const Contact = () => {
                 />
             </h1>
             <p>
-                Sentence
+                Want to have a chat? Fill in the form and ill get back to you as soon as possible!
             </p>
             <div className="contact-form">
                 <form>
@@ -46,6 +47,7 @@ const Contact = () => {
                 </form>
             </div>
         </div>
+        <Logo />
         </div>
         </>
         

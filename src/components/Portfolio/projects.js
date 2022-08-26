@@ -2,7 +2,9 @@ import AnimatedLetters from '../AnimatedLetters/letters'
 import './project.scss'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import acebook from '../../assets/images/ibrahim.jpg'
+import acebook from '../../assets/images/acebook.jpeg'
+import bean from '../../assets/images/loyal-bean.png'
+import Logo from './Logo/logo'
 
 const Projects = () => {
     return (
@@ -16,6 +18,7 @@ const Projects = () => {
             </h1>
         <Card className='card_1'>
         <Card.Title className="title">AceBook</Card.Title>
+
         <Card.Img className='image'variant="top" src={acebook} />
         <Card.Body>
             <Card.Text className='text'>
@@ -27,7 +30,7 @@ const Projects = () => {
         </Card>
         <Card className='card_2'>
         <Card.Title className='title'>Loyal Bean</Card.Title>
-        <Card.Img className='image' variant="top" src="holder.js/100px180" />
+        <Card.Img className='image' variant="top" src={acebook} />
         <Card.Body>
             <Card.Text className='text'>
             Had enough of loyalty cards? So have we! Welcomne to loyal bean where
@@ -38,7 +41,7 @@ const Projects = () => {
         </Card>
         <Card className='card_3'>
         <Card.Title className='title'>MakersBnB</Card.Title>
-        <Card.Img className='image' variant="top" src="holder.js/100px180" />
+        <Card.Img className='image' variant="top" src={acebook} />
         <Card.Body>
             <Card.Text className='text'>
             Need a place to stay during your holiday? Welcome to MakersBnB, where you can rent beautiful rooms and apartments with the click of a button!
@@ -80,6 +83,7 @@ const Projects = () => {
         </Card.Body>
         </Card> */}
     </div>
+    <Logo/>
     </div>
     );
 }

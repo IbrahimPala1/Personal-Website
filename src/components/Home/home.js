@@ -4,6 +4,7 @@ import '../AnimatedLetters/letters.scss';
 import FirstLetter from '../../assets/images/letter_i2.png';
 import AnimatedLetters from '../AnimatedLetters/letters';
 import { useState, useEffect }  from 'react'
+import Logo from './Logo/logo'
 
 
 const Home = () => {
@@ -34,6 +35,7 @@ const Home = () => {
                 <h2>Full Stack Engineer</h2>
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
             </div>
+            <Logo />
         </div>
     )
 }
