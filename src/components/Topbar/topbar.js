@@ -19,7 +19,7 @@ const Topbar = () => (
       <NavLink exact="true" activeclassname="active" className="about-link" to='/about'>
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
       </NavLink>
-      <NavLink exact="true" activeclassname="active" className="projects-link" to='/projects'>
+      <NavLink exact="true" activeclassname="active" className="project-link" to='/projects'>
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
       </NavLink>
       <NavLink exact="true" activeclassname="active" className="contact-link" to='/contact'>
