@@ -1,9 +1,11 @@
 import AnimatedLetters from '../AnimatedLetters/letters'
 import './about.scss'
 import Logo from './Logo/logo'
+import Loader from 'react-loaders'
 
 const About = () => {
     return (
+        <>
         <div className="container about-page">
             <div className="text-zone">
             <h1>
@@ -30,8 +32,11 @@ const About = () => {
             to become a successful leader.
             </p>
             </div>
+            
             <Logo />
             </div>
+            <Loader type="pacman" />
+            </>
     )
 }
 

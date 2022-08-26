@@ -5,9 +5,11 @@ import Card from 'react-bootstrap/Card';
 import acebook from '../../assets/images/acebook.jpeg'
 import bean from '../../assets/images/loyal-bean.png'
 import Logo from './Logo/logo'
+import Loader from 'react-loaders'
 
 const Projects = () => {
     return (
+        <>
         <div className='mains'>
         <div className="container about-page">
             <h1 className='text-animate-project'>
@@ -85,6 +87,8 @@ const Projects = () => {
     </div>
     <Logo/>
     </div>
+    <Loader type='pacman'/>
+    </>
     );
 }
 

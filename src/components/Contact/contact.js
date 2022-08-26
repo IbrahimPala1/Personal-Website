@@ -1,7 +1,7 @@
 import './contact.scss'
 import AnimatedLetters from '../AnimatedLetters/letters'
 import Logo from './Logo/logo'
-// import Loader from 'react-loaders'
+import Loader from 'react-loaders'
 // import { useEffect, useState } from 'react'
 
 const Contact = () => {
@@ -49,6 +49,7 @@ const Contact = () => {
         </div>
         <Logo />
         </div>
+        <Loader type='pacman'/>
         </>
         
     )
