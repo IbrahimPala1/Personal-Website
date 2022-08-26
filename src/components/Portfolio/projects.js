@@ -18,22 +18,22 @@ const Projects = () => {
         <Card.Title className="title">AceBook</Card.Title>
         <Card.Img className='image'variant="top" src={acebook} />
         <Card.Body>
-            <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            <Card.Text className='text'>
+            Sign up and view your friends and families latest posts! View and 
+            like all the latest posts; and be sure to leave a comments to let the world know your thoughts ! 
             </Card.Text>
             <Button className='button' variant="primary">View Code!</Button>
         </Card.Body>
         </Card>
         <Card className='card_2'>
-        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Title className='title'>Loyal Bean</Card.Title>
+        <Card.Img className='image' variant="top" src="holder.js/100px180" />
         <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            <Card.Text className='text'>
+            Had enough of loyalty cards? So have we! Welcomne to loyal bean where
+             you can collect beans from your local coffee shops and earn rewards!
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button className='button' variant="primary">View Code!</Button>
         </Card.Body>
         </Card>
         <Card className='card_3'>
