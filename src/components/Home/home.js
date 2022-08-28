@@ -38,8 +38,8 @@ const Home = () => {
                 <br/>
                 <h2>Full Stack Engineer</h2>
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
+                <img className='image-contact' src={wave} alt="wave"/>
             </div>
-            <img className='image-contact' src={wave} alt="wave"/>
         </div>
         {/* <Logo className='image-contact'src={Logo}/> */}
         <Loader type='pacman'/>
