@@ -80,11 +80,12 @@
 
     .image-contact {
       transform: rotateZ(10deg) !important;
-      animation: fadeIn 2s 2s;
+      animation: fadeIn 2s;
       width: 450px;
       position: absolute;
       top: -90px;
       left: 110%;
       bottom: 0;
+      transform: translateY(-50%);
      }
 }

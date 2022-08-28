@@ -4,6 +4,7 @@ import AnimatedLetters from '../AnimatedLetters/letters'
 import Loader from 'react-loaders'
 // import { useEffect, useState } from 'react'
 // import my_website from '../../assets/images/contact.png'
+import mail from '../../assets/images/contact.png'
 
 const Contact = () => {
     // const [letterClass, setLetterClass] = useState('text-animate')
@@ -46,6 +47,7 @@ const Contact = () => {
                         </li>
                     </ul>
                 </form>
+                <img className='image-contact' src={mail} alt="mail"/>
             </div>
             
         </div>
