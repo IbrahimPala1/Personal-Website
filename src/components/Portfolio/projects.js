@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import acebook from '../../assets/images/acebook.jpeg'
 import my_website from '../../assets/images/my-website.png'
-import Logo from './Logo/logo'
+// import Logo from './Logo/logo'
 import Loader from 'react-loaders'
 
 const Projects = () => {
@@ -81,7 +81,7 @@ const Projects = () => {
             <Button className='button' href='https://github.com/IbrahimPala1/makersbnb' variant="primary" >View Code!</Button>
         </Card.Body>
         </Card>
-         <Logo/>
+         {/* <Logo/> */}
     </div2>
     </div2>
     <Loader type='pacman'/>
