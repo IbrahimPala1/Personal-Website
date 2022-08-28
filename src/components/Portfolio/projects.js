@@ -57,7 +57,7 @@ const Projects = () => {
         <Card.Img className='image' variant="top" src={my_website} />
         <Card.Body>
             <Card.Text className='text'>
-            Need a place to stay during your holiday? Welcome to MakersBnB, where you can rent beautiful rooms and apartments with the click of a button!
+            My very own website!
             </Card.Text>
             <Button className='button' href='https://github.com/IbrahimPala1/makersbnb' variant="primary" >View Code!</Button>
         </Card.Body>
