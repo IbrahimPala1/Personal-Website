@@ -1,6 +1,6 @@
 import AnimatedLetters from '../AnimatedLetters/letters'
 import './about.scss'
-import Logo from './Logo/logo'
+// import Logo from './Logo/logo'
 import Loader from 'react-loaders'
 
 const About = () => {
@@ -33,7 +33,7 @@ const About = () => {
             </p>
             </div>
             
-            <Logo />
+            {/* <Logo /> */}
             </div>
             <Loader type="pacman" />
             </>
