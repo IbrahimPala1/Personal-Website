@@ -4,7 +4,7 @@ import '../AnimatedLetters/letters.scss';
 import FirstLetter from '../../assets/images/letter_i2.png';
 import AnimatedLetters from '../AnimatedLetters/letters';
 import { useState }  from 'react'
-import Logo from './Logo/logo'
+// import Logo from './Logo/logo'
 import Loader from 'react-loaders'
 
 
@@ -37,7 +37,7 @@ const Home = () => {
                 <h2>Full Stack Engineer</h2>
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
             </div>
-            <Logo />
+            {/* <Logo /> */}
         </div>
         <Loader type='pacman'/>
         </>
