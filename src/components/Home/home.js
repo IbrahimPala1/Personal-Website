@@ -3,13 +3,13 @@ import './home.scss';
 import '../AnimatedLetters/letters.scss';
 import FirstLetter from '../../assets/images/letter_i2.png';
 import AnimatedLetters from '../AnimatedLetters/letters';
-import { useState, useEffect }  from 'react'
+import { useState }  from 'react'
 import Logo from './Logo/logo'
 import Loader from 'react-loaders'
 
 
 const Home = () => {
-    const [letterClass, setLetterClass] = useState('text-animate')
+    // const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['b', 'r', 'a', 'h', 'i', 'm']
 
     // useEffect(() => {

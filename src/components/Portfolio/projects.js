@@ -3,7 +3,6 @@ import './project.scss'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import acebook from '../../assets/images/acebook.jpeg'
-import bean from '../../assets/images/loyal-bean.png'
 import my_website from '../../assets/images/my-website.png'
 import Logo from './Logo/logo'
 import Loader from 'react-loaders'

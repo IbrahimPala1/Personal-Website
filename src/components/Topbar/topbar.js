@@ -1,9 +1,9 @@
 import './topbar.scss'
-import { Link, NavLink } from 'react-router-dom' 
-import LogoS from '../../assets/images/ibrahim.jpg'
+import {  NavLink } from 'react-router-dom' 
+// import LogoS from '../../assets/images/ibrahim.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faEnvelope, faSuitcase } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin, faGithub, faCodewars} from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const Topbar = () => (
   <div className="nav-bar">
