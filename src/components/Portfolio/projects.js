@@ -4,14 +4,15 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import acebook from '../../assets/images/acebook.jpeg'
 import bean from '../../assets/images/loyal-bean.png'
+import my_website from '../../assets/images/my-website.png'
 import Logo from './Logo/logo'
 import Loader from 'react-loaders'
 
 const Projects = () => {
     return (
         <>
-        <div className='mains'>
-        <div className="container about-page">
+        <div2 className='mains'>
+        <div2 className="container about-page">
             <h1 className='text-animate-project'>
                 <AnimatedLetters
                 strArray={['P', 'r', 'o', 'j', 'e', 'c', 't', 's']}
@@ -51,42 +52,39 @@ const Projects = () => {
             <Button className='button' href='https://github.com/IbrahimPala1/makersbnb' variant="primary" >View Code!</Button>
         </Card.Body>
         </Card>
-        {/* <Card className='card_4'>
-        <Card.Img variant="top" src="holder.js/100px180" />
+          <Card className='card_4'>
+          <Card.Title className='title'>My Website</Card.Title>
+        <Card.Img className='image' variant="top" src={my_website} />
         <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            <Card.Text className='text'>
+            Need a place to stay during your holiday? Welcome to MakersBnB, where you can rent beautiful rooms and apartments with the click of a button!
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button className='button' href='https://github.com/IbrahimPala1/makersbnb' variant="primary" >View Code!</Button>
         </Card.Body>
         </Card>
         <Card className='card_5'>
-        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Title className='title'>Gilded Rose</Card.Title>
+        <Card.Img className='image' variant="top" src={acebook} />
         <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            <Card.Text className='text'>
+            Need a place to stay during your holiday? Welcome to MakersBnB, where you can rent beautiful rooms and apartments with the click of a button!
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button className='button' href='https://github.com/IbrahimPala1/makersbnb' variant="primary" >View Code!</Button>
         </Card.Body>
         </Card>
         <Card className='card_6'>
-        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Title className='title'>Bank Tech test</Card.Title>
+        <Card.Img className='image' variant="top" src={acebook} />
         <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            <Card.Text className='text'>
+            Need a place to stay during your holiday? Welcome to MakersBnB, where you can rent beautiful rooms and apartments with the click of a button!
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button className='button' href='https://github.com/IbrahimPala1/makersbnb' variant="primary" >View Code!</Button>
         </Card.Body>
-        </Card> */}
-    </div>
-    <Logo/>
-    </div>
+        </Card>
+         <Logo/>
+    </d
+    </div2>
     <Loader type='pacman'/>
     </>
     );
