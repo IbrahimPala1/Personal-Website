@@ -76,5 +76,15 @@
         color: #333;
       }
       }
-}
+    
 
+    .image-contact {
+      transform: rotateZ(10deg) !important;
+      animation: fadeIn 2s 2s;
+      width: 450px;
+      position: absolute;
+      top: 120px;
+      right: 10%;
+      bottom: 0;
+     }
+}
