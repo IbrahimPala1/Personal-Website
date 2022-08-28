@@ -1,7 +1,7 @@
 .contact-form {
     width: 100%;
     margin-top: 20px;
-  
+     
     ul {
       padding: 0;
       margin: 0;
@@ -70,4 +70,14 @@
       }
  }
 
+
   
+ .image-contact {
+  transform: rotateZ(10deg) !important;
+  animation: fadeIn 2s 2s;
+  width: 650px;
+  position: absolute;
+  top: 120px;
+  right: 10%;
+  bottom: 0;
+ }

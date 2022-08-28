@@ -1,8 +1,9 @@
 import './contact.scss'
 import AnimatedLetters from '../AnimatedLetters/letters'
-import Logo from './Logo/logo'
+// import Logo from './Logo/logo'
 import Loader from 'react-loaders'
 // import { useEffect, useState } from 'react'
+// import my_website from '../../assets/images/contact.png'
 
 const Contact = () => {
     // const [letterClass, setLetterClass] = useState('text-animate')
@@ -46,8 +47,10 @@ const Contact = () => {
                     </ul>
                 </form>
             </div>
+            
         </div>
-        <Logo />
+        {/* <Logo /> */}
+        {/* <img className='image-contact' variant="top" src={my_website} /> */}
         </div>
         <Loader type='pacman'/>
         </>
