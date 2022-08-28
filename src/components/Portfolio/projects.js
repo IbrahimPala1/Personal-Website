@@ -83,7 +83,7 @@ const Projects = () => {
         </Card.Body>
         </Card>
          <Logo/>
-    </d
+    </div2>
     </div2>
     <Loader type='pacman'/>
     </>
