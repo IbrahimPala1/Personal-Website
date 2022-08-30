@@ -8,6 +8,7 @@ import makersbnb from '../../assets/images/makersbnb.png'
 import bean from '../../assets/images/bean.jpg'
 // import Logo from './Logo/logo'
 import Loader from 'react-loaders'
+import bank from '../../assets/images/bank-tech.png'
 
 const Projects = () => {
     return (
@@ -75,12 +76,12 @@ const Projects = () => {
         </Card>
         <Card className='card_6'>
         <Card.Title className='title'>Bank Tech test</Card.Title>
-        <Card.Img className='image' variant="top" src={acebook} />
+        <Card.Img className='image' variant="top" src={bank} />
         <Card.Body>
             <Card.Text className='text'>
             Need a place to stay during your holiday? Welcome to MakersBnB, where you can rent beautiful rooms and apartments with the click of a button!
             </Card.Text>
-            <Button className='button' href='https://github.com/IbrahimPala1/makersbnb' variant="primary" >View Code!</Button>
+            <Button className='button' href='https://github.com/IbrahimPala1/bank-tech-test' variant="primary" >View Code!</Button>
         </Card.Body>
         </Card>
          {/* <Logo/> */}
