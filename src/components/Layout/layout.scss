@@ -48,6 +48,16 @@
         vertical-align: middle;
         display: table-cell;
         max-height: 90%;
+        .image-about {
+          transform: rotateZ(10deg) !important;
+          animation: fadeIn 2s;
+          width: 450px;
+          height: 450px;
+          position: absolute;
+          top: -350px;
+          left: 110%;
+          bottom: 0;
+      }
 
         h1 {
             font-size: 53px;

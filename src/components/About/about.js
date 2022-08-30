@@ -3,6 +3,7 @@ import './about.scss'
 // import Logo from './Logo/logo'
 import Loader from 'react-loaders'
 import Chip from '@mui/material/Chip';
+import about from '../../assets/images/about.png'
 
 const About = () => {
     return (
@@ -66,10 +67,11 @@ const About = () => {
                 <Chip label="Heroku" style={{backgroundColor:'purple', color: 'white', fontSize: "1.5rem"}}/>
                 <Chip label="Netlify" style={{backgroundColor:'purple', color: 'white', fontSize: "1.5rem"}}/>
               </div>
+              <img className='image-about' src={about} alt="about"/>
               </div>
               </div>
-            {/* <Logo /> */}
             </div>
+            
             <Loader type="pacman" />
             </>
     )
