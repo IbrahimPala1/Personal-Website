@@ -61,7 +61,7 @@ const Projects = () => {
             <Card.Text className='text'>
             My very own website!
             </Card.Text>
-            <Button className='button' href='https://github.com/IbrahimPala1/makersbnb' variant="primary" >View Code!</Button>
+            <Button className='button' href='https://github.com/IbrahimPala1/personal-website' variant="primary" >View Code!</Button>
         </Card.Body>
         </Card>
         <Card className='card_5'>
