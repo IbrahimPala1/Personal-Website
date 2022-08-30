@@ -44,7 +44,7 @@ const Projects = () => {
             <Button href={'https://github.com/IbrahimPala1/bean-app'}className='button' variant="primary">View Code!</Button>
         </Card.Body>
         </Card>
-        <Card className='card_3'>
+        <Card className='card_4'>
         <Card.Title className='title'>MakersBnB</Card.Title>
         <Card.Img className='image' variant="top" src={makersbnb} />
         <Card.Body>
@@ -54,7 +54,7 @@ const Projects = () => {
             <Button className='button' href='https://github.com/IbrahimPala1/makersbnb' variant="primary" >View Code!</Button>
         </Card.Body>
         </Card>
-          <Card className='card_4'>
+          <Card className='card_3'>
           <Card.Title className='title'>My Website</Card.Title>
         <Card.Img className='image' variant="top" src={my_website} />
         <Card.Body>

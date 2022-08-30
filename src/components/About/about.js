@@ -2,6 +2,7 @@ import AnimatedLetters from '../AnimatedLetters/letters'
 import './about.scss'
 // import Logo from './Logo/logo'
 import Loader from 'react-loaders'
+import Chip from '@mui/material/Chip';
 
 const About = () => {
     return (
@@ -31,8 +32,42 @@ const About = () => {
             within the tech industry. I believe my drive, personality and work ethic gives me the foundation i need to have the potential 
             to become a successful leader.
             </p>
+            <div className='chips'>
+            <h2>Tech Stack</h2>
+            <div>
+                <Chip label="Ruby" style={{backgroundColor: 'red', color: 'white', fontSize: "1.5rem"}} variant="outlined" />
+                <Chip label="Rails" style={{borderColor: 'red', color: 'red', fontSize: "1.5rem"}} variant="outlined"/>
+                <Chip label="Sinatra" style={{borderColor: 'red', color: 'red', fontSize: "1.5rem"}} variant="outlined" />
+                <Chip label="RSpec" style={{borderColor: 'red', color: 'red', fontSize: "1.5rem"}} variant="outlined" />
+                <Chip label="Capybara" style={{borderColor: 'red', color: 'red', fontSize: "1.5rem"}} variant="outlined" />
             </div>
-            
+            <br></br>
+            <div>
+                <Chip label="JavaScript" style={{backgroundColor:'orange', color: 'white', fontSize: "1.5rem"}}/>
+                <Chip label="React" style={{borderColor: 'orange', color: 'orange', fontSize: "1.5rem"}} variant="outlined" />
+                <Chip label="Node.js" style={{borderColor: 'orange', color: 'orange', fontSize: "1.5rem"}} variant="outlined" />
+                <Chip label="Express" style={{borderColor: 'orange', color: 'orange', fontSize: "1.5rem"}} variant="outlined" />
+                <Chip label="MongoDB" style={{borderColor: 'orange', color: 'orange', fontSize: "1.5rem"}} variant="outlined" />
+                <Chip label="jQuery" style={{borderColor: 'orange', color: 'orange', fontSize: "1.5rem"}} variant="outlined" />
+                <Chip label="Jest" style={{borderColor: 'orange', color: 'orange', fontSize: "1.5rem"}} variant="outlined"/>
+              </div>
+              <br></br>
+              <div>
+                <Chip label="HTML" style={{backgroundColor:'green', color: 'white', fontSize: "1.5rem"}}/>
+                <Chip label="CSS" style={{backgroundColor:'lightgreen', color: 'white', fontSize: "1.5rem"}}/>
+                <Chip label="Material-UI" style={{borderColor: 'lightgreen', color: 'white', fontSize: "1.5rem"}} variant="outlined"/>
+                <Chip label="Bootstrap" style={{borderColor: 'lightgreen', color: 'white', fontSize: "1.5rem"}} variant="outlined"/>
+              </div>
+              <br></br>
+              <div>
+                <Chip label="GitHub"  style={{backgroundColor:'purple', color: 'white', fontSize: "1.5rem"}}/>
+                <Chip label="SQL" style={{backgroundColor:'purple', color: 'white', fontSize: "1.5rem"}}/>
+                <Chip label="Travis CI" style={{backgroundColor:'purple', color: 'white', fontSize: "1.5rem"}}/>
+                <Chip label="Heroku" style={{backgroundColor:'purple', color: 'white', fontSize: "1.5rem"}}/>
+                <Chip label="Netlify" style={{backgroundColor:'purple', color: 'white', fontSize: "1.5rem"}}/>
+              </div>
+              </div>
+              </div>
             {/* <Logo /> */}
             </div>
             <Loader type="pacman" />
