@@ -4,6 +4,8 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import acebook from '../../assets/images/acebook.jpeg'
 import my_website from '../../assets/images/my-website.png'
+import makersbnb from '../../assets/images/makersbnb.png'
+import bean from '../../assets/images/bean.jpg'
 // import Logo from './Logo/logo'
 import Loader from 'react-loaders'
 
@@ -32,7 +34,7 @@ const Projects = () => {
         </Card>
         <Card className='card_2'>
         <Card.Title className='title'>Loyal Bean</Card.Title>
-        <Card.Img className='image' variant="top" src={acebook} />
+        <Card.Img className='image' variant="top" src={bean} />
         <Card.Body>
             <Card.Text className='text'>
             Had enough of loyalty cards? So have we! Welcomne to loyal bean where
@@ -43,7 +45,7 @@ const Projects = () => {
         </Card>
         <Card className='card_3'>
         <Card.Title className='title'>MakersBnB</Card.Title>
-        <Card.Img className='image' variant="top" src={acebook} />
+        <Card.Img className='image' variant="top" src={makersbnb} />
         <Card.Body>
             <Card.Text className='text'>
             Need a place to stay during your holiday? Welcome to MakersBnB, where you can rent beautiful rooms and apartments with the click of a button!
