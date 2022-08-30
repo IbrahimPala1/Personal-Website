@@ -79,7 +79,7 @@ const Projects = () => {
         <Card.Img className='image' variant="top" src={bank} />
         <Card.Body>
             <Card.Text className='text'>
-            Need a place to stay during your holiday? Welcome to MakersBnB, where you can rent beautiful rooms and apartments with the click of a button!
+            A TDD app simulating creation of a bank account for a tech test.
             </Card.Text>
             <Button className='button' href='https://github.com/IbrahimPala1/bank-tech-test' variant="primary" >View Code!</Button>
         </Card.Body>
