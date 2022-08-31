@@ -34,7 +34,7 @@ const About = () => {
             to become a successful leader.
             </p>
             <div className='chips'>
-            <h2>Tech Stack</h2>
+            <h2>Tech Stack:</h2>
             <div>
                 <Chip label="Ruby" style={{backgroundColor: 'red', color: 'white', fontSize: "1.5rem"}} variant="outlined" />
                 <Chip label="Rails" style={{borderColor: 'red', color: 'red', fontSize: "1.5rem"}} variant="outlined"/>
