@@ -9,6 +9,7 @@ import bean from '../../assets/images/bean.jpg'
 // import Logo from './Logo/logo'
 import Loader from 'react-loaders'
 import bank from '../../assets/images/bank-tech.png'
+import gilded from '../../assets/images/gilded.webp'
 
 const Projects = () => {
     return (
@@ -66,12 +67,12 @@ const Projects = () => {
         </Card>
         <Card className='card_5'>
         <Card.Title className='title'>Gilded Rose</Card.Title>
-        <Card.Img className='image' variant="top" src={acebook} />
+        <Card.Img className='image' variant="top" src={gilded} />
         <Card.Body>
             <Card.Text className='text'>
-            Need a place to stay during your holiday? Welcome to MakersBnB, where you can rent beautiful rooms and apartments with the click of a button!
+            My attempt at the infamous WoW inspired kata, complete with TDD.
             </Card.Text>
-            <Button className='button' href='https://github.com/IbrahimPala1/makersbnb' variant="primary" >View Code!</Button>
+            <Button className='button' href='https://github.com/IbrahimPala1/gilded-rose-tech-test' variant="primary" >View Code!</Button>
         </Card.Body>
         </Card>
         <Card className='card_6'>
