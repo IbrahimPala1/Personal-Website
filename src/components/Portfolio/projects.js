@@ -28,8 +28,7 @@ const Projects = () => {
         <Card.Img className='image'variant="top" src={acebook} />
         <Card.Body>
             <Card.Text className='text'>
-            Sign up and view your friends and families latest posts! View and 
-            like all the latest posts; and be sure to leave a comments to let the world know your thoughts ! 
+            Sign up and view your friend's and family's latest posts! View and like all the latest posts, and be sure to leave a comment to let the world know your thoughts!
             </Card.Text>
             <Button href={'https://github.com/IbrahimPala1/acebook-node-priceless'} className='button' variant="primary">View Code!</Button>
         </Card.Body>
@@ -39,8 +38,8 @@ const Projects = () => {
         <Card.Img className='image' variant="top" src={bean} />
         <Card.Body>
             <Card.Text className='text'>
-            Had enough of loyalty cards? So have we! Welcomne to loyal bean where
-             you can collect beans from your local coffee shops and earn rewards!
+            Had enough off loyalty cards? So have we! Welcome to loyal bean where
+            you can collect beans from your local coffee shops and earn rewards!
             </Card.Text>
             <Button href={'https://github.com/IbrahimPala1/bean-app'}className='button' variant="primary">View Code!</Button>
         </Card.Body>
