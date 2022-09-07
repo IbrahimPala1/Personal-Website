@@ -4,3 +4,10 @@ This is the code behind my personal website, built from the ground up using Reac
 
 
 <div align="center"><img src="website.gif" /></div>
+
+### Setup
+```
+$ git clone https://github.com/jasylwong/my_website.git
+$ cd my_website
+$ npm install
+$ npm start
