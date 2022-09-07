@@ -6,6 +6,8 @@ This is the code behind my personal website, built from the ground up using Reac
 <div align="center"><img src="website.gif" /></div>
 
 ### Setup
+
+To clone this repository onto your local device, to customize it to your liking, follow the steps below.
 ```
 $ git clone https://github.com/jasylwong/my_website.git
 $ cd my_website
