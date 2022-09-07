@@ -27,4 +27,3 @@ $ npm start
 - To add onto the tech stack on the about page and make the layout more aesthetically pleasing.
 - Add more projects, both those already completed and those created in the future.
 - Potentially make the sidebar buttons clearer.
-- 
